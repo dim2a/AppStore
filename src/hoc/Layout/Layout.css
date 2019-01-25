@@ -1,0 +1,10 @@
+.Layout {
+    grid-area: cont;
+  background: green;
+  height: 100vh;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
