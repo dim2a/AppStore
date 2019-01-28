@@ -1,0 +1,40 @@
+.Puzzles {
+    padding: 20px 50px;
+}
+
+.gamesItem {
+    display: inline-block;
+    height: 245px;
+    width: 160px;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  
+  .itemLink {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cover {
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cover > img {
+    max-width: 73%;
+    max-height: 160px;
+    margin-top: 15px;
+  }
+  
+  .detail {
+    max-height: 50px;
+    text-align: center;
+  }
+  
+  .statistic {
+    max-height: 38px;
+    text-align: center;
+  }

@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Navigation.css'
+import {NavLink} from 'react-router-dom'
 
 const Navigation = () => {
     return(
@@ -7,22 +8,22 @@ const Navigation = () => {
             <nav className={classes.nav}>
             <ul>
                 <li>
-                <a href="/">Головоломки</a>
+                <NavLink to="/puzzles">Головоломки</NavLink>
                 </li>
                 <li>
-                <a href="/">Гонки</a>
+                <NavLink to="/race">Гонки</NavLink>
                 </li>
                 <li>
-                <a href="/">Cпорт</a>
+                <NavLink to="/sports">Cпорт</NavLink>
                 </li>
                 <li>
-                <a href="/">Карточные</a>
+                <NavLink to="/cards">Карточные</NavLink>
                 </li>
                 <li>
-                <a href="/">Экшен</a>
+                <NavLink to="/action">Экшен</NavLink>
                 </li>
                 <li>
-                <a href="/">Settings</a>
+                <NavLink to="/settings">Settings</NavLink>
                 </li>
             </ul>
             </nav>
