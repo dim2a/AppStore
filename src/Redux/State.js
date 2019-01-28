@@ -9,7 +9,7 @@ let state = {
       {id: 6, name: 'asd', img: 'https://lh3.googleusercontent.com/CBdTcT0JoukL0VzMLTUDOn_iFKEI_OUwXqRYknzBlUHIHzP8IKjUdCjV9-w2e5tH1xA=s180', counter:46},
       {id: 7, name: 'asd', img: 'https://lh3.googleusercontent.com/9px8lmdYS9C_tq8RcJhTJQvQJR-66sUXx_c6QY6-RUxJRkry9Dn_ymmv5B1nbpMSGA=s180', counter:58},    
     ],
-    race : [
+    races : [
       {id:1, name: 'dfds', img: 'https://lh3.googleusercontent.com/ni1zbgDQP1jgup1n0FxyEDq2KyfwFTAOhM6IVn9dHsOaX4ezJfrdCZIC88qzJqJeQm0z=s180', counter:42},
       {id:2, name: 'dfds', img: 'https://lh3.googleusercontent.com/rpUMPV59b8Jz1ICDxyMh_1fMFw4mVHmGrVJneYdwnRT7OQlHMAv_8tYyDK__ZI_-BW8=s180', counter:13},
       {id:3, name: 'dfds', img: 'https://lh3.googleusercontent.com/pK-5TELK5bvbRhLfU6HFqxiaYypPJOWd4Qxy-MDe1JCSQZ29dKsrzpWnImqE9Lqruw=s180', counter:22},

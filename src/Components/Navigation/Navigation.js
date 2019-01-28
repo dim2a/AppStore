@@ -8,22 +8,22 @@ const Navigation = () => {
             <nav className={classes.nav}>
             <ul>
                 <li>
-                <NavLink to="/puzzles">Головоломки</NavLink>
+                <NavLink to="/puzzles" activeClassName={classes.activeLink}>Головоломки</NavLink>
                 </li>
                 <li>
-                <NavLink to="/race">Гонки</NavLink>
+                <NavLink to="/races" activeClassName={classes.activeLink}>Гонки</NavLink>
                 </li>
                 <li>
-                <NavLink to="/sports">Cпорт</NavLink>
+                <NavLink to="/sports" activeClassName={classes.activeLink}>Cпорт</NavLink>
                 </li>
                 <li>
-                <NavLink to="/cards">Карточные</NavLink>
+                <NavLink to="/cards" activeClassName={classes.activeLink}>Карточные</NavLink>
                 </li>
                 <li>
-                <NavLink to="/action">Экшен</NavLink>
+                <NavLink to="/action" activeClassName={classes.activeLink}>Экшен</NavLink>
                 </li>
                 <li>
-                <NavLink to="/settings">Settings</NavLink>
+                <NavLink to="/settings" activeClassName={classes.activeLink}>Settings</NavLink>
                 </li>
             </ul>
             </nav>
